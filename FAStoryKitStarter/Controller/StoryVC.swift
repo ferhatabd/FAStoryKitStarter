@@ -119,6 +119,7 @@ class StoryVC: UIViewController, TransitionTransparencyProxy {
         storyView.delegate = self
         storyView.dataSource = self
         storyView.setScrollIndicators(hidden: true)
+        storyView.setContentInset(insets: .zero)
         
         view.addSubview(storyView)
         
@@ -173,6 +174,10 @@ extension StoryVC: FAStoryDelegate, FAStoryViewControllerDelegate {
         return kStoryViewHeight
     }
     
+    var cellAspectRatio: CGFloat {
+        return 0.75
+    }
+    
     var displayNameColor: UIColor {
         return .black
     }
@@ -191,6 +196,10 @@ extension StoryVC: FAStoryDelegate, FAStoryViewControllerDelegate {
     
     var borderWidth: CGFloat? {
         return 0
+    }
+    
+    var cellHorizontalSpacing: CGFloat {
+        return 20
     }
     
 }
