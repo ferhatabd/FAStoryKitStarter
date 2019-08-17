@@ -185,6 +185,14 @@ extension StoryVC: FAStoryDelegate, FAStoryViewControllerDelegate {
         return UIImage(named: "dk_close")?.withRenderingMode(.alwaysTemplate)
     }
     
+    var borderColor: UIColor? {
+        return nil
+    }
+    
+    var borderWidth: CGFloat? {
+        return 0
+    }
+    
 }
 
 
