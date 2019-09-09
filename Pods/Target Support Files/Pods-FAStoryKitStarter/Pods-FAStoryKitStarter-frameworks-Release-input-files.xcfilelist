@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-FAStoryKitStarter/Pods-FAStoryKitStarter-frameworks.sh
+${BUILT_PRODUCTS_DIR}/FAGlobalKit/FAGlobalKit.framework
+${BUILT_PRODUCTS_DIR}/FAStoryKit/FAStoryKit.framework
+${BUILT_PRODUCTS_DIR}/SessionKit/SessionKit.framework

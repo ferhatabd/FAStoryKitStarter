@@ -1,0 +1,6 @@
+framework module Pods_FAStoryKitStarter {
+  umbrella header "Pods-FAStoryKitStarter-umbrella.h"
+
+  export *
+  module * { export * }
+}
