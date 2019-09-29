@@ -12,6 +12,9 @@
     "ios": "10.0",
     "watchos": "4.0"
   },
+  "info_plist": {
+    "CFBundleIdentifier": "com.ferhatab.SessionKit"
+  },
   "source": {
     "path": "/Users/abdullahoglu/Desktop/Projects/Frameworks/SessionKit/SessionKit",
     "tag": "1.1"

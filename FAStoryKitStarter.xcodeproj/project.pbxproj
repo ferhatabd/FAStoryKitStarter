@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		50ED01BC230494FF001F499E /* Stories.json in Resources */ = {isa = PBXBuildFile; fileRef = 50ED01BA230494FF001F499E /* Stories.json */; };
 		50ED01BD230494FF001F499E /* StoryServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50ED01BB230494FF001F499E /* StoryServer.swift */; };
+		50F20A322340D8050084A9B4 /* ModalPresentationAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F20A312340D8050084A9B4 /* ModalPresentationAnimator.swift */; };
+		50F20A342340D8410084A9B4 /* MainTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F20A332340D8410084A9B4 /* MainTransitionAnimator.swift */; };
 		50F5FDD7230492E000DE2053 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F5FDD6230492E000DE2053 /* AppDelegate.swift */; };
 		50F5FDD9230492E000DE2053 /* StoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F5FDD8230492E000DE2053 /* StoryVC.swift */; };
 		50F5FDDC230492E000DE2053 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50F5FDDA230492E000DE2053 /* Main.storyboard */; };
@@ -21,6 +23,8 @@
 		0D0FB85FA07E77C9DF40557B /* Pods_FAStoryKitStarter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FAStoryKitStarter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		50ED01BA230494FF001F499E /* Stories.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Stories.json; sourceTree = "<group>"; };
 		50ED01BB230494FF001F499E /* StoryServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryServer.swift; sourceTree = "<group>"; };
+		50F20A312340D8050084A9B4 /* ModalPresentationAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalPresentationAnimator.swift; sourceTree = "<group>"; };
+		50F20A332340D8410084A9B4 /* MainTransitionAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTransitionAnimator.swift; sourceTree = "<group>"; };
 		50F5FDD3230492E000DE2053 /* FAStoryKitStarter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FAStoryKitStarter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50F5FDD6230492E000DE2053 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50F5FDD8230492E000DE2053 /* StoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryVC.swift; sourceTree = "<group>"; };
@@ -61,6 +65,15 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		50F20A352340DE410084A9B4 /* Animators */ = {
+			isa = PBXGroup;
+			children = (
+				50F20A312340D8050084A9B4 /* ModalPresentationAnimator.swift */,
+				50F20A332340D8410084A9B4 /* MainTransitionAnimator.swift */,
+			);
+			path = Animators;
+			sourceTree = "<group>";
+		};
 		50F5FDCA230492E000DE2053 = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +99,7 @@
 				50F5FDD6230492E000DE2053 /* AppDelegate.swift */,
 				50ED01B9230494FF001F499E /* Models */,
 				50F5FDE82304931C00DE2053 /* Controller */,
+				50F20A352340DE410084A9B4 /* Animators */,
 				50F5FDE92304932F00DE2053 /* UI */,
 			);
 			path = FAStoryKitStarter;
@@ -236,7 +250,9 @@
 			files = (
 				50F5FDD9230492E000DE2053 /* StoryVC.swift in Sources */,
 				50ED01BD230494FF001F499E /* StoryServer.swift in Sources */,
+				50F20A322340D8050084A9B4 /* ModalPresentationAnimator.swift in Sources */,
 				50F5FDD7230492E000DE2053 /* AppDelegate.swift in Sources */,
+				50F20A342340D8410084A9B4 /* MainTransitionAnimator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
