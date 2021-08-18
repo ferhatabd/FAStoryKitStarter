@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import FAGlobalKit
 
 protocol ModalPresentationAnimatorProtocol: class {
     func didComplete(_ completed: Bool, isDismissal: Bool)

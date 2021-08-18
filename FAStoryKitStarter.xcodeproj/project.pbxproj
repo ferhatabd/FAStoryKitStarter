@@ -16,6 +16,10 @@
 		50F5FDDC230492E000DE2053 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50F5FDDA230492E000DE2053 /* Main.storyboard */; };
 		50F5FDDE230492E100DE2053 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50F5FDDD230492E100DE2053 /* Assets.xcassets */; };
 		50F5FDE1230492E100DE2053 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50F5FDDF230492E100DE2053 /* LaunchScreen.storyboard */; };
+		70F1912226CD9F97003D361D /* PlainPushNavCon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F1912126CD9F97003D361D /* PlainPushNavCon.swift */; };
+		70F1912626CD9F9F003D361D /* StatusBarColorProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F1912426CD9F9F003D361D /* StatusBarColorProxy.swift */; };
+		70F1912726CD9F9F003D361D /* PlainPushPopAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F1912326CD9F9F003D361D /* PlainPushPopAnimator.swift */; };
+		70F1912826CD9F9F003D361D /* TransitionTransparencyProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F1912526CD9F9F003D361D /* TransitionTransparencyProxy.swift */; };
 		AB7C06FB83794FC360F804FD /* Pods_FAStoryKitStarter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D0FB85FA07E77C9DF40557B /* Pods_FAStoryKitStarter.framework */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +37,10 @@
 		50F5FDE0230492E100DE2053 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		50F5FDE2230492E100DE2053 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		60AE67AE5C70B87D8FEC72E0 /* Pods-FAStoryKitStarter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FAStoryKitStarter.debug.xcconfig"; path = "Target Support Files/Pods-FAStoryKitStarter/Pods-FAStoryKitStarter.debug.xcconfig"; sourceTree = "<group>"; };
+		70F1912126CD9F97003D361D /* PlainPushNavCon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlainPushNavCon.swift; sourceTree = "<group>"; };
+		70F1912326CD9F9F003D361D /* PlainPushPopAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlainPushPopAnimator.swift; sourceTree = "<group>"; };
+		70F1912426CD9F9F003D361D /* StatusBarColorProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarColorProxy.swift; sourceTree = "<group>"; };
+		70F1912526CD9F9F003D361D /* TransitionTransparencyProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionTransparencyProxy.swift; sourceTree = "<group>"; };
 		7D66E261F25B366957D554A0 /* Pods-FAStoryKitStarter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FAStoryKitStarter.release.xcconfig"; path = "Target Support Files/Pods-FAStoryKitStarter/Pods-FAStoryKitStarter.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -95,6 +103,7 @@
 		50F5FDD5230492E000DE2053 /* FAStoryKitStarter */ = {
 			isa = PBXGroup;
 			children = (
+				70F1912026CD9F81003D361D /* Helpers */,
 				50F5FDE2230492E100DE2053 /* Info.plist */,
 				50F5FDD6230492E000DE2053 /* AppDelegate.swift */,
 				50ED01B9230494FF001F499E /* Models */,
@@ -121,6 +130,17 @@
 				50F5FDDF230492E100DE2053 /* LaunchScreen.storyboard */,
 			);
 			path = UI;
+			sourceTree = "<group>";
+		};
+		70F1912026CD9F81003D361D /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				70F1912326CD9F9F003D361D /* PlainPushPopAnimator.swift */,
+				70F1912426CD9F9F003D361D /* StatusBarColorProxy.swift */,
+				70F1912526CD9F9F003D361D /* TransitionTransparencyProxy.swift */,
+				70F1912126CD9F97003D361D /* PlainPushNavCon.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		B89E0F131D853D4D8BCFCB69 /* Pods */ = {
@@ -251,7 +271,11 @@
 				50F5FDD9230492E000DE2053 /* StoryVC.swift in Sources */,
 				50ED01BD230494FF001F499E /* StoryServer.swift in Sources */,
 				50F20A322340D8050084A9B4 /* ModalPresentationAnimator.swift in Sources */,
+				70F1912726CD9F9F003D361D /* PlainPushPopAnimator.swift in Sources */,
+				70F1912826CD9F9F003D361D /* TransitionTransparencyProxy.swift in Sources */,
+				70F1912226CD9F97003D361D /* PlainPushNavCon.swift in Sources */,
 				50F5FDD7230492E000DE2053 /* AppDelegate.swift in Sources */,
+				70F1912626CD9F9F003D361D /* StatusBarColorProxy.swift in Sources */,
 				50F20A342340D8410084A9B4 /* MainTransitionAnimator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

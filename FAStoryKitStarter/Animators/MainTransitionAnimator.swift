@@ -7,8 +7,7 @@
 //
 
 import UIKit
-import FAGlobalKit
-
+import FAStoryKit
 
 class MainTransitionAnimator: NSObject {
     

@@ -1,28 +1,21 @@
 PODS:
-  - FAGlobalKit (1.1.0)
-  - FAStoryKit (1.0.5):
-    - FAGlobalKit
-    - SessionKit
-  - SessionKit (1.1)
+  - FAStoryKit (1.0.8)
 
 DEPENDENCIES:
-  - FAGlobalKit (from `/Users/abdullahoglu/Desktop/Projects/Frameworks/FAGlobalKit`)
-  - FAStoryKit (from `/Users/abdullahoglu/Desktop/Projects/Frameworks/FAStoryKit`)
-  - SessionKit (from `/Users/abdullahoglu/Desktop/Projects/Frameworks/SessionKit`)
+  - FAStoryKit (from `https://github.com/ferhatabd/FAStoryKit.git`)
 
 EXTERNAL SOURCES:
-  FAGlobalKit:
-    :path: "/Users/abdullahoglu/Desktop/Projects/Frameworks/FAGlobalKit"
   FAStoryKit:
-    :path: "/Users/abdullahoglu/Desktop/Projects/Frameworks/FAStoryKit"
-  SessionKit:
-    :path: "/Users/abdullahoglu/Desktop/Projects/Frameworks/SessionKit"
+    :git: https://github.com/ferhatabd/FAStoryKit.git
+
+CHECKOUT OPTIONS:
+  FAStoryKit:
+    :commit: 8061cd4a4897d008c854e2f214530dfe885e8a65
+    :git: https://github.com/ferhatabd/FAStoryKit.git
 
 SPEC CHECKSUMS:
-  FAGlobalKit: eca68501886cd14811a9d3f1293e1bc0c9d0289e
-  FAStoryKit: 6cf22d479eacade22029990a2b6944e3e7ea1e70
-  SessionKit: 82f2f5ea26beba599ca1739a8534e052d2280e98
+  FAStoryKit: 70d4c5550ed172fb1ab2e00f8dbc2ae9c67ab463
 
-PODFILE CHECKSUM: 96ebcefbc0731503c8c248db351dbc3b44f8e4a9
+PODFILE CHECKSUM: 17dc4e774e9b747f336141caf430c258e3255207
 
-COCOAPODS: 1.8.0.beta.2
+COCOAPODS: 1.10.1

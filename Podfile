@@ -7,8 +7,5 @@ target 'FAStoryKitStarter' do
   use_frameworks!
 
   # Pods for FAStoryKitStarter
-  pod 'FAGlobalKit', :path => '/Users/abdullahoglu/Desktop/Projects/Frameworks/FAGlobalKit'
-  pod 'SessionKit', :path => '/Users/abdullahoglu/Desktop/Projects/Frameworks/SessionKit'
-  pod 'FAStoryKit', :path => '/Users/abdullahoglu/Desktop/Projects/Frameworks/FAStoryKit'
-
+  pod 'FAStoryKit', :git => 'https://github.com/ferhatabd/FAStoryKit.git'
 end

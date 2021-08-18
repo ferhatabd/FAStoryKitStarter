@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import FAGlobalKit
 import FAStoryKit
 
 class StoryVC: UIViewController, TransitionTransparencyProxy {
@@ -179,6 +178,14 @@ class StoryVC: UIViewController, TransitionTransparencyProxy {
 // MARK: FAStoryDelegate, FAStoryViewControllerDelegate
 // ==================================================== //
 extension StoryVC: FAStoryDelegate, FAStoryViewControllerDelegate {
+    var borderColorUnseen: UIColor? {
+        UIColor.blue.withAlphaComponent(0.5)
+    }
+    
+    var borderColorSeen: UIColor? {
+        .clear
+    }
+    
     
     var cellHeight: CGFloat {
         return kStoryViewHeight
